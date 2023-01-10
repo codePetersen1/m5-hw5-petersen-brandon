@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+}
+
+body{
+    background-image: url("email-pattern.webp");
+}
+
+header{
+    background-color: #ffffff;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-bottom-style: solid;
+    margin-bottom: 20px;
+ }
+
+header > nav{
+    float: right;
+}
+
+header nav a{
+    color:#808080;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+#nametab{
+    background-color: #000000;
+    padding: 23px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+article{
+    background-color: #ffffff;
+    width: 60%;
+    padding: 10px;
+}
+
+aside{
+    background-color: #ffffff;
+    width: 30%;
+    float: right;
+    text-align: center;
+    padding: 10px;
+}
+
+aside hr{
+    width: 90%;
+}
+
+aside a img{
+    width: 30%;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.5)
+}
+
+#profile{
+    width: 30%;
+    float: left;
+    padding: 5px;
+    margin-right: 5px;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.5)
+}
+
+main::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+footer{
+    text-align: center;
+    background-color: #808080;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-style: solid;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
